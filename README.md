@@ -1,4 +1,4 @@
-# Programming
+# Personal Programming Archive
 
 A personal collection of programming practice, exercises, experiments, and learning materials collected throughout my early programming journey.
 
