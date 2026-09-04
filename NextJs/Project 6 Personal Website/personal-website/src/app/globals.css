@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root :focus {
+    outline-color: #EC994B;
+    outline-style: solid;
+}
+
+.skill-gradient {
+    background: linear-gradient(to right, rgb(252, 74, 26), rgb(255, 164, 60));
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+    scrollbar-width: auto;
+    scrollbar-color: rgb(255, 164, 60) #ffffff;
+}
+
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #292750;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #ec994b;
+    border-radius: 10px;
+}
